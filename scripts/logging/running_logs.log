@@ -1,0 +1,104 @@
+2025-01-22 23:54:06,039 - INFO - Hi
+2025-01-24 04:34:23,180 - INFO - Hi
+2025-01-24 04:34:23,181 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 04:35:56,243 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 04:48:33,067 - INFO - Hi
+2025-01-24 04:48:33,068 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 04:48:33,068 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 04:57:03,228 - INFO - Hi
+2025-01-24 04:57:03,229 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 04:57:03,230 - ERROR - main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "main.py", line 16, in <module>
+    Stage1.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+2025-01-24 04:58:15,818 - INFO - Hi
+2025-01-24 04:58:15,818 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 04:58:15,819 - ERROR - main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "main.py", line 16, in <module>
+    Stage1.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+2025-01-24 05:01:21,306 - INFO - Hi
+2025-01-24 05:01:21,307 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 05:01:21,308 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 05:05:27,722 - INFO - Hi
+2025-01-24 05:05:27,723 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 05:06:51,720 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 05:07:00,889 - INFO - >>>>>> stage ModelTraining started <<<<<<
+2025-01-24 05:07:00,889 - INFO - >>>>>> stage ModelTraining completed <<<<<<
+
+x==========x
+2025-01-24 05:07:01,084 - INFO - >>>>>> stage ModelEvaluation started <<<<<<
+2025-01-24 05:07:01,085 - INFO - >>>>>> stage ModelEvaluation completed <<<<<<
+
+x==========x
+2025-01-24 05:07:01,086 - INFO - Running UI
+2025-01-24 05:07:02,911 - INFO - UI is ready
+2025-01-24 05:11:47,808 - INFO - Hi
+2025-01-24 05:11:47,808 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 05:17:24,816 - INFO - Hi
+2025-01-24 05:17:24,816 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 05:18:52,356 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 05:18:54,008 - INFO - >>>>>> stage ModelTraining started <<<<<<
+2025-01-24 05:18:54,009 - INFO - >>>>>> stage ModelTraining completed <<<<<<
+
+x==========x
+2025-01-24 05:18:54,149 - INFO - >>>>>> stage ModelEvaluation started <<<<<<
+2025-01-24 05:18:54,150 - INFO - >>>>>> stage ModelEvaluation completed <<<<<<
+
+x==========x
+2025-01-24 05:18:54,151 - INFO - Running UI
+2025-01-24 05:18:54,157 - INFO - UI is ready
+2025-01-24 22:22:40,826 - INFO - Hi
+2025-01-24 22:22:40,844 - INFO - >>>>>> stage DataPreprocessing started <<<<<<
+2025-01-24 22:24:24,441 - INFO - >>>>>> stage DataPreprocessing completed <<<<<<
+
+x==========x
+2025-01-24 22:24:24,441 - INFO - >>>>>> stage ModelTraining started <<<<<<
+2025-01-24 22:24:37,112 - INFO - >>>>>> stage ModelTraining completed <<<<<<
+
+x==========x
+2025-01-24 22:24:37,113 - INFO - >>>>>> stage ModelEvaluation started <<<<<<
+2025-01-24 22:24:37,338 - INFO - >>>>>> stage ModelEvaluation completed <<<<<<
+
+x==========x
+2025-01-24 22:24:37,338 - INFO - Running UI
+2025-01-24 22:24:38,643 - INFO - UI is ready
+2025-01-24 22:25:07,327 - INFO - Hi
+2025-01-24 22:26:35,397 - INFO - User entered some text: 'i love you'
+2025-01-24 22:27:01,235 - INFO - User entered some text: 'i hate you'
+2025-01-24 22:27:19,785 - INFO - User entered some text: 'this movie sucks'
+2025-01-24 22:27:35,265 - INFO - User entered some text: 'this movie is bad'
+2025-01-24 22:33:36,584 - INFO - Hi
+2025-01-24 22:33:45,469 - INFO - User entered some text: '1222'
+2025-01-24 22:35:00,786 - INFO - User entered some text: ')'
+2025-01-24 22:35:02,483 - INFO - User entered some text: ')'
+2025-01-24 22:35:07,373 - INFO - User entered some text: '@'
+2025-01-24 22:35:16,880 - INFO - User entered some text: '/(('
+2025-01-24 22:40:14,975 - INFO - Hi
+2025-01-24 22:40:29,999 - INFO - User entered some text: '1'
+2025-01-24 22:40:31,210 - ERROR - We need at least 1 word to plot a word cloud, got 0.
+Traceback (most recent call last):
+  File "C:\Work\Text-classification-project-2\app\app.py", line 101, in main
+    visualize_common_words(text_input)
+  File "C:\Work\Text-classification-project-2\app\app.py", line 55, in visualize_common_words
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(word_counts)
+  File "C:\Users\mohan\anaconda3\envs\texts\lib\site-packages\wordcloud\wordcloud.py", line 410, in generate_from_frequencies
+    raise ValueError("We need at least 1 word to plot a word cloud, "
+ValueError: We need at least 1 word to plot a word cloud, got 0.
+2025-01-24 22:43:46,209 - INFO - Hi
+2025-01-24 22:43:56,580 - INFO - User entered some text: '1'
+2025-01-24 22:58:01,144 - INFO - Hi
+2025-01-24 22:58:19,272 - INFO - User entered some text: 'i love you'
+2025-01-24 22:59:06,352 - INFO - User entered some text: 'she is pretty'
